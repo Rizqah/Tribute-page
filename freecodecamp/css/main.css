@@ -1,0 +1,119 @@
+body{
+    background-color: rgb(23, 24, 24);
+    display: grid;
+    grid-template-rows: auto;
+    justify-items: center;
+    
+}
+.responsive{
+    width: 100%;
+  
+}
+img{
+    width:100%;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    text-align: center;
+    color:white;
+}
+h6{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1rem;
+    text-align:center;
+    opacity: 0.5;
+    color:white;
+}
+#image{
+    display: block;
+    text-align: center;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    color:white;
+    line-height: 2.0;
+
+}
+li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    text-align: center;
+    color:white;
+}
+#tribute-info{
+    display: block;
+    text-align:center;
+    
+    width: 680px;
+    height: 440px;
+   
+}
+#img-div{
+    padding: 10px;
+    margin:0;
+    height:auto;
+}
+#item1{
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+ 
+    width: 680px;
+    height: 440px;
+    
+    
+}
+#item2{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2cm;
+   
+   
+}
+#item3{
+    
+   text-align: center;
+   
+}
+#item4{
+    
+    
+    margin-left: auto;
+    margin-right: auto;
+}
+#item5{
+    margin-left: auto;
+    margin-right: auto;
+    width: 680px;
+    height:440px;
+    margin-bottom: 3cm;
+}
+@media  screen and (max-width:680){
+   p{
+    font-size: 1.5rem;
+    text-align: justify;
+
+    
+   }
+   li{
+       text-align: center;
+       font-size: 18px;
+   }
+   tribute-info{
+       max-width: 100%;
+       height: auto;
+       display: grid;
+       grid-gap: 30px
+   }
+   #img{
+      max-width: auto;
+   }
+}
